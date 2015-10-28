@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- See http://llvm.org/docs/GettingStarted.html#git-mirror -->
+  <remote name="llvm" alias="origin" fetch="http://llvm.org/git/" />
+
+  <default remote="llvm" revision="master" sync-j="4"/>
+
+  <project name="llvm"/>
+
+  <project name="compiler-rt" path="llvm/projects/compiler-rt"/>
+
+  <project name="libcxx" path="llvm/projects/libcxx"/>
+  <project name="libcxxabi" path="llvm/projects/libcxxabi"/>
+
+  <project name="clang" path="llvm/tools/clang"/>
+  <project name="clang-tools-extra" path="llvm/tools/clang/tools/extra"/>
+
+</manifest>
