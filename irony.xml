@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" alias="origin" fetch="https://github.com/" />
+  <default remote="github" revision="master" sync-j="4"/>
+
+  <project name="Sarcasm/irony-mode" path="irony-mode"/>
+
+  <project name="Sarcasm/flycheck-irony" path="flycheck-irony"/>
+  <project name="Sarcasm/company-irony" path="company-irony"/>
+  <project name="Sarcasm/ac-irony" path="ac-irony"/>
+</manifest>
