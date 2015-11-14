@@ -3,6 +3,13 @@
 Sarcasm's collection of [repo](https://gerrit.googlesource.com/git-repo)
 manifests for various open source projects.
 
+# autotest
+
+    mkdir autotest
+    cd autotest
+    repo init -u https://github.com/Sarcasm/repo-manifests.git -m autotest.xml
+    repo sync
+
 # llvm + clang + clang-tools-extra
 
     mkdir llvm

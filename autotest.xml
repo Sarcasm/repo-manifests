@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" alias="origin" fetch="https://github.com/" />
+  <default remote="github" revision="master" sync-j="4"/>
+
+  <project name="autotest/autotest"/>
+  <project name="autotest/autotest-server-tests" path="autotest/server/tests"/>
+  <project name="autotest/autotest-client-tests" path="autotest/client/tests"/>
+</manifest>
