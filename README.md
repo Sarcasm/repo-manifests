@@ -25,3 +25,11 @@ To work on irony and derived projects:
     cd irony
     repo init -u https://github.com/Sarcasm/repo-manifests.git -m irony.xml
     repo sync
+
+To also include third party projects, use:
+
+    repo init -g all -m irony.xml
+
+To go back to the default, officially supported projects, use:
+
+    repo init -g default -m irony.xml

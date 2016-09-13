@@ -8,4 +8,13 @@
   <project name="Sarcasm/flycheck-irony" path="flycheck-irony"/>
   <project name="Sarcasm/company-irony" path="company-irony"/>
   <project name="Sarcasm/ac-irony" path="ac-irony"/>
+
+  <!--
+      These could be in an "external"/third_party group
+      See "Needed by" field of irony-mode in melpa:
+      - https://melpa.org/#/irony
+  -->
+  <project name="hotpxl/company-irony-c-headers" path="external/company-irony-c-headers"/>
+  <project name="ikirill/irony-eldoc" path="external/irony-eldoc"/>
+  <project name="yuutayamada/company-arduino" path="external/company-arduino"/>
 </manifest>
