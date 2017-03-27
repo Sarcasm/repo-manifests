@@ -13,6 +13,8 @@
   <project name="libcxx" path="llvm/projects/libcxx"/>
   <project name="libcxxabi" path="llvm/projects/libcxxabi"/>
 
+  <project name="lld" path="llvm/tools/lld"/>
+
   <project name="clang" path="llvm/tools/clang"/>
   <project name="clang-tools-extra" path="llvm/tools/clang/tools/extra"/>
 

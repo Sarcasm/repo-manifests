@@ -14,8 +14,9 @@ manifests for various open source projects.
 
     mkdir llvm
     cd llvm
-    repo init -u https://github.com/Sarcasm/repo-manifests.git -m clang-tools-extra.xml
+    repo init -u https://github.com/Sarcasm/repo-manifests.git -m llvm-tools.xml
     repo sync
+    ln -s .repo/manifests/notes/README.md README.md
 
 # irony
 
