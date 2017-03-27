@@ -16,7 +16,7 @@ manifests for various open source projects.
     cd llvm
     repo init -u https://github.com/Sarcasm/repo-manifests.git -m llvm-tools.xml
     repo sync
-    ln -s .repo/manifests/notes/README.md README.md
+    ln -s .repo/manifests/notes/llvm-tools.md README.md
 
 # irony
 
