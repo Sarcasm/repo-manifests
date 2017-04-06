@@ -17,4 +17,6 @@
   <project name="hotpxl/company-irony-c-headers" path="external/company-irony-c-headers" groups="notdefault"/>
   <project name="ikirill/irony-eldoc" path="external/irony-eldoc" groups="notdefault"/>
   <project name="yuutayamada/company-arduino" path="external/company-arduino" groups="notdefault"/>
+  <!-- counsel-irony: see https://oremacs.com/2017/03/28/emacs-cpp-ide/ -->
+  <project name="abo-abo/swiper" path="external/swiper" groups="notdefault"/>
 </manifest>
