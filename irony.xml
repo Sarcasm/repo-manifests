@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" alias="origin" fetch="https://github.com/" />
+  <remote name="github" alias="origin" fetch="https://github.com/" pushurl="git@github.com:"/>
   <default remote="github" revision="master" sync-j="4"/>
 
   <project name="Sarcasm/irony-mode" path="irony-mode"/>
