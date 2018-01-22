@@ -4,8 +4,8 @@
   <default remote="github" revision="master" sync-j="4"/>
 
   <project name="Sarcasm/.emacs.d" path="dot-emacs"/>
-  <project name="emacs-lsp/lsp-mode" path="lsp-mode"/>
-  <project name="emacs-lsp/lsp-ui" path="lsp-ui"/>
-  <project name="jacobdufault/cquery" path="cquery"/>
-  <project name="cquery-project/emacs-cquery" path="emacs-cquery"/>
+  <project name="Sarcasm/lsp-mode" path="lsp-mode"/>
+  <project name="Sarcasm/lsp-ui" path="lsp-ui"/>
+  <project name="Sarcasm/cquery" path="cquery"/>
+  <project name="Sarcasm/emacs-cquery" path="emacs-cquery"/>
 </manifest>
