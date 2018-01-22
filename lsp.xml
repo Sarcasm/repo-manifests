@@ -3,6 +3,7 @@
   <remote name="github" alias="origin" fetch="https://github.com/" pushurl="git@github.com:"/>
   <default remote="github" revision="master" sync-j="4"/>
 
+  <project name="Sarcasm/.emacs.d" path="dot-emacs"/>
   <project name="emacs-lsp/lsp-mode" path="lsp-mode"/>
   <project name="emacs-lsp/lsp-ui" path="lsp-ui"/>
   <project name="jacobdufault/cquery" path="cquery"/>
