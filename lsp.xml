@@ -6,6 +6,7 @@
   <project name="Sarcasm/.emacs.d" path="dot-emacs"/>
   <project name="Sarcasm/lsp-mode" path="lsp-mode"/>
   <project name="Sarcasm/lsp-ui" path="lsp-ui"/>
+  <project name="Sarcasm/company-lsp" path="company-lsp"/>
   <project name="Sarcasm/cquery" path="cquery"/>
   <project name="Sarcasm/emacs-cquery" path="emacs-cquery"/>
 </manifest>
