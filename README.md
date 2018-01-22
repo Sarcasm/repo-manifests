@@ -34,3 +34,12 @@ To also include third party projects, use:
 To go back to the default, officially supported projects, use:
 
     repo init -g default -m irony.xml
+
+# lsp
+
+To work on emacs-lsp and cquery:
+
+    mkdir lsp
+    cd lsp
+    repo init -u https://github.com/Sarcasm/repo-manifests.git -m lsp.xml
+    repo sync
