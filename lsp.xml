@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" alias="origin" fetch="https://github.com/" pushurl="git@github.com:"/>
-  <default remote="github" revision="master" sync-j="4"/>
+  <remote name="sarcasm" alias="origin" fetch="https://github.com/Sarcasm/" pushurl="git@github.com:Sarcasm/"/>
 
-  <project name="Sarcasm/.emacs.d" path="dot-emacs"/>
-  <project name="Sarcasm/lsp-mode" path="lsp-mode"/>
-  <project name="Sarcasm/lsp-ui" path="lsp-ui"/>
-  <project name="Sarcasm/company-lsp" path="company-lsp"/>
-  <project name="Sarcasm/cquery" path="cquery"/>
-  <project name="Sarcasm/emacs-cquery" path="emacs-cquery"/>
+  <remote name="emacs-lsp" alias="origin" fetch="https://github.com/emacs-lsp/" pushurl="git@github.com:Sarcasm/"/>
+  <remote name="tigersoldier" alias="origin" fetch="https://github.com/tigersoldier/" pushurl="git@github.com:Sarcasm/"/>
+
+  <remote name="jacobdufault" alias="origin" fetch="https://github.com/jacobdufault/" pushurl="git@github.com:Sarcasm/"/>
+  <remote name="cquery-project" alias="origin" fetch="https://github.com/cquery-project/" pushurl="git@github.com:Sarcasm/"/>
+
+  <default remote="sarcasm" revision="master" sync-j="4"/>
+
+  <project name=".emacs.d" path="dot-emacs"/>
+
+  <project remote="emacs-lsp" name="lsp-mode" path="lsp-mode"/>
+  <project remote="emacs-lsp" name="lsp-ui" path="lsp-ui"/>
+  <project remote="tigersoldier" name="company-lsp" path="company-lsp"/>
+
+  <project remote="jacobdufault" name="cquery" path="cquery"/>
+  <project remote="cquery-project" name="emacs-cquery" path="emacs-cquery"/>
 </manifest>
