@@ -42,4 +42,15 @@ To work on emacs-lsp and cquery:
     mkdir lsp
     cd lsp
     repo init -u https://github.com/Sarcasm/repo-manifests.git -m lsp.xml
-    repo sync
+    repo sync --fetch-submodules
+
+Syncing and looking for differences:
+
+    repo manifest --revision-as-HEAD -o old.xml
+    repo sync --fetch-submodules
+    repo manifest --revision-as-HEAD -o new.xml
+    repo diffmanifests $(pwd)/{old,new}.xml
+
+Launcher Emacs with specified configuration:
+
+    emacs -mm -Q -l dot-emacs/init.el
