@@ -5,7 +5,6 @@
   <remote name="emacs-lsp" alias="origin" fetch="https://github.com/emacs-lsp" pushurl="git@github.com:Sarcasm"/>
   <remote name="tigersoldier" alias="origin" fetch="https://github.com/tigersoldier" pushurl="git@github.com:Sarcasm"/>
 
-  <remote name="jacobdufault" alias="origin" fetch="https://github.com/jacobdufault" pushurl="git@github.com:Sarcasm"/>
   <remote name="cquery-project" alias="origin" fetch="https://github.com/cquery-project" pushurl="git@github.com:Sarcasm"/>
 
   <default remote="sarcasm" revision="master" sync-j="4"/>
@@ -16,6 +15,6 @@
   <project remote="emacs-lsp" name="lsp-ui" path="lsp-ui"/>
   <project remote="tigersoldier" name="company-lsp" path="company-lsp"/>
 
-  <project remote="jacobdufault" name="cquery" path="cquery"/>
+  <project remote="cquery-project" name="cquery" path="cquery"/>
   <project remote="cquery-project" name="emacs-cquery" path="emacs-cquery"/>
 </manifest>
