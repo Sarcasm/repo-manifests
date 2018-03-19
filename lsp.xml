@@ -2,6 +2,8 @@
 <manifest>
   <remote name="sarcasm" alias="origin" fetch="https://github.com/Sarcasm" pushurl="git@github.com:Sarcasm"/>
 
+  <remote name="company-mode" alias="origin" fetch="https://github.com/company-mode" pushurl="git@github.com:Sarcasm"/>
+
   <remote name="emacs-lsp" alias="origin" fetch="https://github.com/emacs-lsp" pushurl="git@github.com:Sarcasm"/>
   <remote name="tigersoldier" alias="origin" fetch="https://github.com/tigersoldier" pushurl="git@github.com:Sarcasm"/>
 
@@ -10,6 +12,8 @@
   <default remote="sarcasm" revision="master" sync-j="4"/>
 
   <project name=".emacs.d" path="dot-emacs"/>
+
+  <project remote="company-mode" name="company-mode" path="company-mode"/>
 
   <project remote="emacs-lsp" name="lsp-mode" path="lsp-mode"/>
   <project remote="emacs-lsp" name="lsp-ui" path="lsp-ui"/>
